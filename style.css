@@ -1,0 +1,14 @@
+.centered-box {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: -250px;
+	position: fixed;
+}
+
+* html .centered-box { 
+	position:absolute;
+}
